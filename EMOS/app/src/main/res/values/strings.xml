@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">EMOS</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="email_register">Email</string>
+    <string name="password_register">Password</string>
+    <string name="password_confirm_register">Password Confirm</string>
+
+    <string name="err_msg_email">Enter valid email please.</string>
+    <string name="err_msg_password">Enter your password.</string>
+    <string name="err_msg_cabang">Cabang error</string>
+    <string name="err_msg_nama_supplier">Nama Supplier error</string>
+    <string name="err_msg_alamat_supplier">Alamat Supplier error</string>
+    <string name="err_msg_kota_supplier">Kota Supplier error</string>
+    <string name="err_msg_pbf">PBF error</string>
+    <string name="err_msg_no_ijin_pbf">Nomor Ijin PBF error</string>
+    <string name="err_msg_no_siup">Nomor SIUP error</string>
+    <string name="err_msg_nama_apj">Nama APJ error</string>
+    <string name="err_msg_no_sika">Nomor SIKA error</string>
+    <string name="err_msg_nama_pajak">Nama Pajak error</string>
+    <string name="err_msg_npwp_supplier">NPWP Supplier error</string>
+    <string name="err_msg_nama_kontak">Nama Kontak error</string>
+    <string name="err_msg_telepon_kontak">Telepon Kontak error</string>
+    <string name="err_msg_masa_berlaku_pbf">Silahkan memilih masa berlaku PBF</string>
+    <string name="err_msg_masa_berlaku_siup">Silahkan memilih masa berlaku SIUP</string>
+    <string name="err_msg_masa_berlaku_apj">Silahkan memilih masa berlaku APJ</string>
+
+    <string name="cabang">Cabang</string>
+    <string name="nama_supplier">Nama</string>
+    <string name="alamat_supplier">Alamat</string>
+    <string name="kota_supplier">Kota</string>
+    <string name="nama_pajak">Nama Pajak</string>
+    <string name="npwp_supplier">NPWP</string>
+    <string name="nama_kontak">Kontak</string>
+    <string name="telepon_kontak">Telepon</string>
+    <string name="pbf">PBF</string>
+    <string name="no_ijin_pbf">Nomer Ijin PBF</string>
+    <string name="masa_berlaku_pbf">Masa Berlaku PBF : \n- Silahkan Pilih Tanggal -</string>
+    <string name="no_siup">Nomor SIUP</string>
+    <string name="masa_berlaku_siup">Masa Berlaku SIUP : \n- Silahkan Pilih Tanggal -</string>
+    <string name="nama_apj">Nama APJ</string>
+    <string name="no_sika">Nomor SIKA</string>
+    <string name="masa_berlaku_apj">Masa Berlaku APJ : \n- Silahkan Pilih Tanggal -</string>
+</resources>
