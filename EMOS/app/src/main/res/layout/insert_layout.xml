@@ -40,7 +40,8 @@
                     android:layout_marginTop="15dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/cabang"/>
+                    android:hint="@string/cabang"
+                    android:maxLength="10"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -123,11 +124,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:lineSpacingExtra="8dp"
                     android:id="@+id/masa_berlaku_pbf"
                     android:text="@string/masa_berlaku_pbf"
                     android:textAlignment="textStart"
                     android:onClick="showDatePickerDialog"
-                    android:gravity="start"/>
+                    android:gravity="start"
+                    android:background="@drawable/date_btn_bg"
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -154,11 +159,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:lineSpacingExtra="8dp"
                     android:id="@+id/masa_berlaku_siup"
                     android:text="@string/masa_berlaku_siup"
                     android:textAlignment="textStart"
                     android:onClick="showDatePickerDialog"
-                    android:gravity="start" />
+                    android:gravity="start"
+                    android:background="@drawable/date_btn_bg"
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
@@ -199,11 +208,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:lineSpacingExtra="8dp"
                     android:id="@+id/masa_berlaku_apj"
                     android:text="@string/masa_berlaku_apj"
                     android:textAlignment="textStart"
                     android:onClick="showDatePickerDialog"
-                    android:gravity="start" />
+                    android:gravity="start"
+                    android:background="@drawable/date_btn_bg"
+                    android:drawableRight="@drawable/ic_date_range_black_24dp"/>
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout

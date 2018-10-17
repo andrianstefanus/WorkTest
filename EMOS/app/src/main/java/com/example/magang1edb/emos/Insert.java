@@ -207,17 +207,17 @@ public class Insert extends AppCompatActivity {
         public void onDateSet(DatePicker view, int year, int month, int day) {
             switch (activeDF) {
                 case "PBF" :
-                    masaBerlakuPBF.setText(masaBerlakuPBF.getText().toString().split(":")[0]+" :\n"+day+"/"+month+"/"+year);
+                    masaBerlakuPBF.setText(masaBerlakuPBF.getText().toString().split(":")[0]+":\n"+day+"/"+month+"/"+year);
                     masaBerlakuPBFLayout.setErrorEnabled(false);
                     onSelectPBF = true;
                     break;
                 case "SIUP" :
-                    masaBerlakuSIUP.setText(masaBerlakuSIUP.getText().toString().split(":")[0]+" :\n"+day+"/"+month+"/"+year);
+                    masaBerlakuSIUP.setText(masaBerlakuSIUP.getText().toString().split(":")[0]+":\n"+day+"/"+month+"/"+year);
                     masaBerlakuSIUPLayout.setErrorEnabled(false);
                     onSelectSIUP = true;
                     break;
                 case "APJ" :
-                    masaBerlakuAPJ.setText(masaBerlakuAPJ.getText().toString().split(":")[0]+" :\n"+day+"/"+month+"/"+year);
+                    masaBerlakuAPJ.setText(masaBerlakuAPJ.getText().toString().split(":")[0]+":\n"+day+"/"+month+"/"+year);
                     masaBerlakuAPJLayout.setErrorEnabled(false);
                     onSelectAPJ = true;
                     break;
